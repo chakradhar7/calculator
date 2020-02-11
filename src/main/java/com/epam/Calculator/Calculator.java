@@ -4,7 +4,7 @@ public class Calculator {
 	private String Operator;
 	private double num1;
 	private double num2;
-	private double result;
+	private Double result;
 	int S=0;
 	operation op=new operation();
 	Calculator(double num1,String Operator,double num2)
@@ -40,7 +40,7 @@ public class Calculator {
 	}
 	public void Result()
 	{
-		if(this.result!=-1)System.out.println("The sresult of you operation is: "+this.result);
+		if(this.result!=null)System.out.println("The sresult of you operation is: "+this.result);
 		else System.out.println("A number is not divisible by zero");
 	}
 }

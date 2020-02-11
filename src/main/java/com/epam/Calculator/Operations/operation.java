@@ -17,13 +17,13 @@ public class operation implements Operations {
 		return num1*num2;
 	}
 
-	public double Divide(double num1, double num2) {
+	public Double Divide(double num1, double num2) {
 		// TODO Auto-generated method stub
 		if(num2!=0)
 		{
 		return num1/num2;
 		}
-		return -1;
+		return null;
 		
 	}
 
